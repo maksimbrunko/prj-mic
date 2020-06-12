@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="<viewport>		</viewport>" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="tmp.js"></script>
+    <link rel="stylesheet" type="text/css" href="tmp.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Please Select</h1>
+
+
+        <button class="btn btn-success" onclick="navigateTo('https://www.minecraft.net/en-us/')">Minecraft</button>
+        <button class="btn btn-danger"
+            onclick="navigateTo('https://www.youtube.com/watch?v=Z0aLjw52ip4')">Dont!</button>
+        <button class="btn btn-info" onclick="navigateTo('https://voccent.com')">Voccent</button>
+        <button class="btn btn-success" onclick="record()">Record</button>
+        <button class="btn btn-warning" onclick="stop()">Stop</button>
+				<hr />
+        <div id="soundClips"></div>
+    </div>
+
+    <script>
+        function navigateTo(url) {
+            window.open(url);
+        }
+    </script>
+
+</body>
+
+</html>
