@@ -1,3 +1,4 @@
+// (c) 2020
 
 var mediaRecorder = [];
 var chunks = [];
